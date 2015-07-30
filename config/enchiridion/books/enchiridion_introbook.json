@@ -23,6 +23,9 @@
       "pageName": ""
     }
   ],
+  "displayNames": {
+    "en_US": "Introduction Book"
+  },
   "uniqueName": "enchiridion.introbook",
   "color": 16777215,
   "showBackground": true,
@@ -33,8 +36,5 @@
   "iconColorisePass1": false,
   "iconColorisePass2": false,
   "iconColorPass1": 0,
-  "iconColorPass2": 0,
-  "language": "en_US",
-  "displayName": "Introduction Book",
-  "displayInCreative": true
+  "iconColorPass2": 0
 }

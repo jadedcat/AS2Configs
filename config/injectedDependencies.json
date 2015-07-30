@@ -1,0 +1,11 @@
+[
+    {
+        "modId": "HardcoreQuesting",
+        "deps": [
+            {
+                "type":"after",
+                "target":"*"
+            }
+        ]
+    }
+]

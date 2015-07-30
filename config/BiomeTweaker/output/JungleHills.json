@@ -29,124 +29,81 @@
   "Spawnable Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntitySheep",
-      "Weight": 12,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityPig",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityChicken",
-      "Weight": 10,
-      "Min Group Count": 4,
+      "Weight": 8,
+      "Min Group Count": 1,
       "Max Group Count": 4
     },
     {
       "Entity Class": "net.minecraft.entity.passive.EntityCow",
       "Weight": 8,
-      "Min Group Count": 4,
+      "Min Group Count": 1,
       "Max Group Count": 4
     },
     {
       "Entity Class": "net.minecraft.entity.passive.EntityChicken",
-      "Weight": 10,
-      "Min Group Count": 4,
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityPig",
+      "Weight": 4,
+      "Min Group Count": 1,
       "Max Group Count": 4
     }
   ],
   "Spawnable Monsters": [
     {
-      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
-      "Weight": 100,
-      "Min Group Count": 4,
+      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
+      "Weight": 4,
+      "Min Group Count": 1,
       "Max Group Count": 4
     },
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntitySlime",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
-      "Weight": 10,
+      "Weight": 8,
       "Min Group Count": 1,
-      "Max Group Count": 4
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     },
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitch",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityOcelot",
       "Weight": 2,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
-      "Entity Class": "tconstruct.world.entity.BlueSlime",
-      "Weight": 1,
-      "Min Group Count": 4,
-      "Max Group Count": 20
-    },
-    {
-      "Entity Class": "tconstruct.world.entity.BlueSlime",
-      "Weight": 1,
-      "Min Group Count": 4,
-      "Max Group Count": 20
-    },
-    {
-      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-      "Weight": 10,
+      "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+      "Weight": 2,
       "Min Group Count": 1,
-      "Max Group Count": 1
+      "Max Group Count": 2
     },
     {
-      "Entity Class": "ganymedes01.headcrumbs.entity.EntityHuman",
-      "Weight": 80,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     }
   ],
   "Spawnable Water Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntitySquid",
-      "Weight": 10,
-      "Min Group Count": 4,
-      "Max Group Count": 4
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 2
     }
   ],
-  "Spawnable Cave Creatures": [
-    {
-      "Entity Class": "net.minecraft.entity.passive.EntityBat",
-      "Weight": 10,
-      "Min Group Count": 8,
-      "Max Group Count": 8
-    }
-  ],
-  "Tweaked": false
+  "Spawnable Cave Creatures": [],
+  "Tweaked": true
 }

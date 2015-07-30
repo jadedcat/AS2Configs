@@ -111,6 +111,7 @@
                 <mossStone id="mossy_cobblestone"/>
                 <endStone id="end_stone"/>
                 <whiteStone id="end_stone"/>
+				<stoneDict oreDictName="stone"/>
             </stones>
             <oreBlock>
                 <coalOreBlock id="coal_ore"/>
@@ -121,11 +122,21 @@
                 <lapisLazuliOreBlock id="lapis_ore"/>
                 <diamondOreBlock id="diamond_ore"/>
                 <emeraldOreBlock id="emerald_ore"/>
+				<ironDict oreDictName="oreIron"/>
+				<goldDict oreDictName="oreGold"/>
+				<copperDict oreDictName="oreCopper"/>
+				<tinDict oreDictName="oreTin"/>
+				<silverDict oreDictName="oreSilver"/>
+				<leadDict oreDictName="oreLead"/>				
             </oreBlock>
             <dirts>
                 <dirt id="dirt" damage="0"/>
                 <grasslessDirt id="dirt" damage="1"/>
                 <podzol id="dirt" damage="2"/>
+				<mycelium id="mycelium"/>
+                <mushroomGrass id="mycelium"/>
+                <farmland id="farmland"/>
+				<dirtDict oreDictName="dirt"/>
             </dirts>
             <wood>
                 <oakWood id="log" damage="0"/>
@@ -140,11 +151,13 @@
                 <sand id="sand">
                     <plainSand id="sand" damage="0"/>
                     <redSand id="sand" damage="1"/>
+					<sandDict oreDictName="sand"/>
                 </sand>
                 <sandstone>
                     <classicSandstone id="sandstone" damage="0"/>
                     <creeperSandstone id="sandstone" damage="1"/>
                     <smoothSandstone id="sandstone" damage="2"/>
+					<sandstoneDict oreDictName="sandstone"/>
                 </sandstone>
             </sands>
             <gravel id="gravel"/>
@@ -160,10 +173,7 @@
             <monsterSpawner id="mob_spawner"/>
             <bedrock id="bedrock"/>
             <sponge id="sponge"/>
-            <grass id="grass"/>
-            <mycelium id="mycelium"/>
-            <mushroomGrass id="mycelium"/>
-            <farmland id="farmland"/>
+            <grass id="grass"/>          
             <snow id="snow"/>
             <ice id="ice"/>
             <packedIce id="packed_ice"/>
