@@ -31,7 +31,7 @@ eggplant,minecraft:egg,null,null,2,1,less pecking
 #feather
 featherlight,minecraft:feather,null,null,3,1,less plucking
 #pork
-baconweed,minecraft:porkchop,null,null,3,1,BACON, do I really need to say more?
+baconweed,minecraft:porkchop,null,null,3,1,BACON! do I really need to say more?
 #Ghast tear
 ghastlymoss,minecraft:ghast_tear,minecraft:soul_sand,AWWayofTime:AlchemicalWizardrybloodRune:0,3,1, Much quieter than hunting
 ## Metal Seeds Tier 2
