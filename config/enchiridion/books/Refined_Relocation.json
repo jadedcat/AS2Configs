@@ -3056,10 +3056,7 @@
       "pageName": ""
     }
   ],
-  "displayNames": {
-    "en_US": "Refined_Relocation"
-  },
-  "uniqueName": "Refined_Relocation",
+   "uniqueName": "Refined_Relocation",
   "color": 5855577,
   "showBackground": true,
   "showArrows": true,
@@ -3069,5 +3066,8 @@
   "iconColorisePass1": false,
   "iconColorisePass2": false,
   "iconColorPass1": 0,
-  "iconColorPass2": 0
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Refined_Relocation",
+  "displayInCreative": true
 }

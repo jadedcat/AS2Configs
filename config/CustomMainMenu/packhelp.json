@@ -129,7 +129,7 @@
 			"action" : {
 			"type" : "refresh"
 			}
-			},
+		},
 		"language":
         {
             "text" : "Language",
@@ -142,17 +142,71 @@
 			"type" : "openGui",
 			"gui" : "languages"
 			}
+        },
+		"Donate":
+        {
+            "text" : "Patreon",
+            "posX" : 80,
+            "posY" : -25,
+            "width" : 50,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/buttonsmall.png",
+			"alignment" : "bottom_center",
+			"action" : {
+			"type" : "openLink",
+			"link" : "https://www.patreon.com/jadedcat"
+			}
         }
     },
     
-    "texts":
-    {
+	"texts":
+	{
 	
+		"modpack":
+        {
+            "text" : "Agrarian Skies 2",
+            "posX" : -70,
+            "posY" : -40,
+            "color" : 10194114,
+			"alignment" : "bottom_center"
+        },
+		 "version":
+        {
+            "text" : "Version: 1.1.13",
+            "posX" : -70,
+            "posY" : -30,
+            "color" : -1,
+			"alignment" : "bottom_center"
+        },
+		"author":
+        {
+            "text" : "by Jadedcat",
+            "posX" : -70,
+            "posY" : -20,
+            "color" : 9222338,
+			"alignment" : "bottom_center"
+        },
+		"forgestuff":
+        {
+            "text" : "Forge-#forgeversion#",
+            "posX" : -70,
+            "posY" : -10,
+            "color" : -1,
+			"alignment" : "bottom_center"
+        }
+		
     },
     
     "other":
     {
-        "background":
+        "splash-text":
+        {
+            "posX" : 50,
+            "posY" : 80,
+            "color" : -256
+        },
+		
+		"background":
         {
            "image" : "custommainmenu:textures/gui/background/screen.png"
         }
